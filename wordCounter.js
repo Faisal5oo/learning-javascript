@@ -6,7 +6,7 @@ module.exports = (str) => {
   console.log(` Numbers of words is ${words}`);
   let spaceRemover = str.trimEnd();
   console.log(`${spaceRemover}`);
-  let Splited = str.replace(/ +/g, "");
+  let splited = str.replace(/ +/g, "");
 
-  console.log(`words without extra spaces ${Splited.length}`);
+  console.log(`words without extra spaces ${splited.length}`);
 };
